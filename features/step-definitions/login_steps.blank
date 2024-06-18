@@ -1,0 +1,20 @@
+const { Given, Then } = require('@wdio/cucumber-framework');
+const { browser, expect, $ } = require('@wdio/globals');
+const loginPage = require('../pageobjects/login.page');
+
+Given('пользователь залогинен с почтой {string} и паролем {string}', async (email, password) => {
+    await loginPage.open();
+    await loginPage.login(email, password);
+});
+
+Then('почта в профиле подтверждена', async () => {
+    const emailConfirmed = await $('//*[contains(text(), "Почта подтверждена")]');
+    await emailConfirmed.waitForDisplayed();
+    await expect(emailConfirmed).toBeDisplayed();
+});
+
+Then('статус пользователя "New"', async () => {
+    const userStatus = await $('//*[contains(text(), "Статус: New")]');
+    await userStatus.waitForDisplayed();
+    await expect(userStatus).toBeDisplayed();
+});

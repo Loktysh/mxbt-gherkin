@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"owl-item active\" and descendant::*[contains(text(), \"Статусы\")]]\"}\n  (Session info: chrome=125.0.6422.78)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF7B2A91F22+60322]\n\t(No symbol) [0x00007FF7B2A0CE99]\n\t(No symbol) [0x00007FF7B28C7EBA]\n\t(No symbol) [0x00007FF7B2917676]\n\t(No symbol) [0x00007FF7B291773C]\n\t(No symbol) [0x00007FF7B295E967]\n\t(No symbol) [0x00007FF7B293C25F]\n\t(No symbol) [0x00007FF7B295BC80]\n\t(No symbol) [0x00007FF7B293BFC3]\n\t(No symbol) [0x00007FF7B2909617]\n\t(No symbol) [0x00007FF7B290A211]\n\tGetHandleVerifier [0x00007FF7B2DA946D+3301613]\n\tGetHandleVerifier [0x00007FF7B2DF3693+3605267]\n\tGetHandleVerifier [0x00007FF7B2DE9410+3563664]\n\tGetHandleVerifier [0x00007FF7B2B442F6+790390]\n\t(No symbol) [0x00007FF7B2A174DF]\n\t(No symbol) [0x00007FF7B2A133D4]\n\t(No symbol) [0x00007FF7B2A13562]\n\t(No symbol) [0x00007FF7B2A02F6F]\n\tBaseThreadInitThunk [0x00007FFDA4657614+20]\n\tRtlUserThreadStart [0x00007FFDA47C26F1+33]\n"
+}

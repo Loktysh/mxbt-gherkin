@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@class=\"owl-item active\" and descendant::*[contains(text(), \"Турниры\")]]"
+}
